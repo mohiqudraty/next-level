@@ -4,7 +4,6 @@
 - it makes code easier to read.
 - it makes changes safer.
  */
-
+export {};
 //! TypeScript cannot run on browser it first compile to JavaScript
-
-
+//# sourceMappingURL=note.js.map

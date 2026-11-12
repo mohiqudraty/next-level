@@ -1,0 +1,5 @@
+npm init -y ==> Initial the project with package.json
+npm i -D typescript ==> typescript dependency
+npx tsc --init ==> typescript initialization with ts config file
+npm install -D @types/node      ==> 
+npm i tsx                       ==>

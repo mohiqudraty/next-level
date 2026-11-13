@@ -1,6 +1,1 @@
-[
-  { "id": 2, "name": "laptop", "price": 500 },
-  { "id": 3, "name": "VR", "price": 100 },
-  { "id": 1794534833222, "name": "Microphone", "price": 50 },
-  { "id": 1, "name": "iPhone pro max", "price": 8088 }
-]
+[{"id":2,"name":"laptop","price":500},{"id":3,"name":"VR","price":100},{"id":1794560256464,"name":"earphone","price":20}]

@@ -3,3 +3,4 @@ npm i -D typescript ==> typescript dependency
 npx tsc --init ==> typescript initialization with ts config file
 npm install -D @types/node      ==> 
 npm i tsx                       ==>
+npm i dotenv  ==> for env file managment

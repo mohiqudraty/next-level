@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas",
+    "year": 1999,
+    "genre": "Technology",
+    "isbn": "978-0201616224"
+  },
+  {
+    "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Technology",
+    "isbn": "978-0132350884"
+  },
+  {
+    "id": 3,
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "year": 1988,
+    "genre": "Design",
+    "isbn": "978-0465050659"
+  },
+  {
+    "id": 4,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "year": 2011,
+    "genre": "History",
+    "isbn": "978-0062316097"
+  },
+  {
+    "id": 5,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "genre": "Self-Help",
+    "isbn": "978-0735211292"
+  }
+]

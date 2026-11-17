@@ -1,0 +1,13 @@
+runtime and event loop--> v8, libuv,neo-blocking I/O model.
+
+async evolution --> callbacks, promises and async/await.
+
+module and ecosystem --> cjs vs esm , npm and ts tooling. 
+
+core I/O and streams --> fs, path, process adn buffer chunks.
+
+raw HTTP server --> manual routing and why framworks exist.
+
+npm init -y
+tsc -init / tsx tsc --init
+npm i -D typescript

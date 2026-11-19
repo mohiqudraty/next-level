@@ -1,0 +1,6 @@
+Request:
+client -> route.ts -> cotroller.ts -> service.ts -> database
+
+Response: 
+DB -> service.ts -> controller.ts -> client (return data from controller)
+

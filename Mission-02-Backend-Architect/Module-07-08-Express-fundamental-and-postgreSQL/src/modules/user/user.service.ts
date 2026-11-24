@@ -26,7 +26,10 @@ const createUserIntoDB = async (payLoad: IUser) => {
 // get all users from DB ----
 const getAllUsersIntoDB = async () => {
   const result = await pool.query(`SELECT * FROM users`);
-  return result;
+ 
+ const safeResults = result.rows.map(({ password, ...rest }) => rest);
+  
+  return safeResults;
 }
 
 // get single user from DB 

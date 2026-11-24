@@ -14,7 +14,8 @@ import express, {
 import { userRoute } from "./modules/user/user.route";
 import { profileRoute } from "./modules/profile/profile.route";
 import { authRoute } from "./modules/auth/auth.route";
-
+import fs from "fs"
+import logger from "./middleware/logger";
 // ─────────────────────────────────────────────
 // 2. APP & CONFIG
 // ─────────────────────────────────────────────
@@ -28,6 +29,8 @@ const app: Application = express(); // Create the Express application instance
 app.use(express.json()); // Parses Content-Type: application/json
 // app.use(express.text()); // Parses Content-Type: text/plain
 // app.use(express.urlencoded({ extended: true })); // Parses form data (application/x-www-form-urlencoded)
+// logger middleware -----------
+app.use(logger)
 
 // ─────────────────────────────────────────────
 // 6. ROUTES — CRUD

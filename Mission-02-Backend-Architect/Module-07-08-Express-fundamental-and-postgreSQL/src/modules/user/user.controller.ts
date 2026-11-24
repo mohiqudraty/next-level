@@ -35,7 +35,7 @@ const getAllUsers = async (_req: Request, res: Response) => {
     res.status(200).json({
       success: true,
       message: "All users fetched",
-      data: result.rows,
+      data: result,
     });
   } catch (error: any) {
     // DB query failed = server error, NOT a 404

@@ -20,3 +20,37 @@ Method: GET , URL: /api/v1/users/ , 1795660399089
 
 Method: GET , URL: /api/v1/users/1 , 1795660450467
 
+Method: GET , URL: /api/v1/users/ , 1795661372086
+
+Method: POST , URL: /api/v1/auth/login , 1795661511285
+
+Method: GET , URL: /api/v1/users/ , 1795663095716
+
+Method: GET , URL: /api/v1/users/ , 1795663107179
+
+Method: POST , URL: /api/v1/auth/login , 1795663928276
+
+Method: POST , URL: /api/v1/auth/login , 1795664030967
+
+Method: POST , URL: /api/v1/users/ , 1795664052820
+
+Method: POST , URL: /api/v1/auth/login , 1795664098947
+
+Method: POST , URL: /api/v1/auth/login , 1795664556620
+
+Method: POST , URL: /api/v1/auth/login , 1795664631722
+
+Method: POST , URL: /api/v1/auth/refresh-token , 1795665200078
+
+Method: POST , URL: /api/v1/auth/ , 1795665874311
+
+Method: POST , URL: /api/v1/auth/ , 1795665883756
+
+Method: POST , URL: /api/v1/auth/refresh-token , 1795665932733
+
+Method: POST , URL: /api/v1/auth/login , 1795665985722
+
+Method: POST , URL: /api/v1/auth/refresh-token , 1795665994662
+
+Method: POST , URL: /api/v1/auth/login , 1795666880310
+

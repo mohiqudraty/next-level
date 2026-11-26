@@ -8,7 +8,7 @@ const router = Router()
 // ─── POST /api/v1/users ─── Create a new user
 //  method applied -> go to controller for req  and res control it will return respons to client 
 router.post("/", userController.createUser);
-router.get("/",auth, userController.getAllUsers);
+router.get("/",auth("admin", "user"), userController.getAllUsers);
 router.get("/:id", userController.getSingleUser);
 router.put("/:id", userController.updateUser);
 router.delete("/:id", userController.deleteUser);

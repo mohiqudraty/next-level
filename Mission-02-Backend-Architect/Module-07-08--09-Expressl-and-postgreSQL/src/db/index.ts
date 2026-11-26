@@ -26,11 +26,12 @@ export const initDB = async () => {
         password    VARCHAR(255) NOT NULL,        -- Required (⚠️ should be hashed, see notes)
         age         INT,                          -- Optional integer
         is_Active   BOOLEAN DEFAULT true,         -- Defaults to true if not provided
+        role VARCHAR(20) DEFAULT 'user',
+
         created_at  TIMESTAMP DEFAULT NOW(),      -- Auto-set on INSERT
         updated_at  TIMESTAMP DEFAULT NOW()       -- Manually updated on PUT
       );
     `);
-
 
     await pool.query(`
   CREATE TABLE IF NOT EXISTS profile(
